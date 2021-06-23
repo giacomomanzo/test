@@ -13,6 +13,7 @@ a {
      border: none;
  }
 
+
 #menu nav ,#menu ul, #menu li, #menu li, #menu .sunglasses, #menu .eyeglasses, #menù .lenses{
     height: 100%;
 }
@@ -116,13 +117,35 @@ a {
 .item-grid{
     margin: 0 auto;
     padding: 10px;
+    justify-content: space-between;
+    
 }
 
 .item{
     height: calc(90%/4);
     width: calc(90% /4);
     background-color: orange;
-    display: inline-block;
+}
+
+p {
+    margin-left: 120px;
+}
+
+.box-container {
+    width: 265px;
+    height: 90px;
+    display: flex;
+    text-align: center;
+}
+
+.box {
+    height: 40px;
+    width: 90px;
+    border: 1px solid black;
+    margin: 0 20px 0 20px;
+    background-color: bisque;
+    font-size: 30px;
+
 }
 
 footer {
@@ -132,6 +155,7 @@ footer {
     display: flex;
     justify-content: space-between ;
     align-items: center;
+    position: absolute;
 }
 
 .sub_news {
