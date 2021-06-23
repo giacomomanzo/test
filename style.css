@@ -116,8 +116,6 @@ a {
 .item-grid{
     margin: 0 auto;
     padding: 10px;
-    align-content: flex-end;
-    text-align: center
 }
 
 .item{
